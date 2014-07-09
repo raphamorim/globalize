@@ -247,8 +247,7 @@ module.exports = function( grunt ) {
 		checkDependencies: {
 			bower: {
 				options: {
-					packageManager: "bower",
-					depsDirName: "external"
+					packageManager: "bower"
 				}
 			},
 			npm: {
