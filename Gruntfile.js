@@ -243,6 +243,15 @@ module.exports = function( grunt ) {
 			dist: [
 				"dist"
 			]
+		},
+		checkDependencies: {
+			bower: {
+				packageManager: "bower",
+				depsDirName: "external"
+			},
+			npm: {
+				packageManager: "npm"
+			}
 		}
 	});
 
